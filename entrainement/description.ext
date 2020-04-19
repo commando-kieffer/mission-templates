@@ -1,0 +1,59 @@
+﻿author="Commando Kieffer";
+onLoadName="Entrainement commando"; // ----- Nom de la mission
+onLoadMission="";
+onLoadMissionTime=1;
+onLoadIntro="Entrainement commando";  // ----- Nom de la mission
+onLoadIntroTime=1;
+briefingName="Entrainement commando kieffer";  // ----- Petit briefing de mission
+overviewPicture = "loadscreen.jpg";
+overviewText="Préparez vous soldat !"; // ----- Commentaire
+loadScreen = "loadscreen.paa";
+
+class Header
+{
+    gameType=CK;
+    minPlayers=1;
+    maxPlayers=177;
+};
+
+joinUnassigned=1;
+briefing=0;
+debriefing=0;
+
+respawn=3;
+
+respawndelay=5;
+respawnDialog=0;
+respawnOnStart=0;
+
+respawnTemplates[]={"MenuPosition","Spectator"};
+respawnButton=1;
+
+Revive=0;
+
+corpseManagerMode=1;
+
+corpseLimit=10;
+corpseRemovalMinTime=5;
+corpseRemovalMaxTime=15;
+
+wreckManagerMode=1;
+
+wreckLimit=5;
+wreckRemovalMinTime=4;
+wreckRemovalMaxTime=7;
+
+forceRotorLibSimulation=0;
+
+aiKills=0;
+disabledAI=1;
+
+onPauseScript[]={};
+saving=0;
+enableItemsDropping=0;
+weaponPool=0;
+enableDebugConsole=1;
+scriptedPlayer=1;
+allowFunctionsLog=1;
+disableRandomization[]={};
+allowFunctionsRecompile=1;
