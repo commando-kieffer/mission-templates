@@ -1,4 +1,4 @@
-﻿author="Commando Kieffer";
+author="Commando Kieffer";
 onLoadName="Entrainement commando"; // ----- Nom de la mission
 onLoadMission="";
 onLoadMissionTime=1;
@@ -32,16 +32,16 @@ respawnButton=1;
 Revive=0;
 
 corpseManagerMode=1;
-
-corpseLimit=10;
-corpseRemovalMinTime=5;
-corpseRemovalMaxTime=15;
+corpseLimit=15;
+corpseRemovalMinTime=30;
+corpseRemovalMaxTime=60;
 
 wreckManagerMode=1;
 
-wreckLimit=5;
-wreckRemovalMinTime=4;
-wreckRemovalMaxTime=7;
+wreckLimit=10;
+wreckRemovalMinTime=300;
+wreckRemovalMaxTime=600;
+minPlayerDistance=500;
 
 forceRotorLibSimulation=0;
 
@@ -50,10 +50,11 @@ disabledAI=1;
 
 onPauseScript[]={};
 saving=0;
-enableItemsDropping=0;
-weaponPool=0;
 enableDebugConsole=1;
 scriptedPlayer=1;
-allowFunctionsLog=1;
-disableRandomization[]={};
-allowFunctionsRecompile=1;
+allowFunctionsLog=0;
+disableRandomization[]={ "All" };
+allowFunctionsRecompile=0;
+
+
+// showGPS = 1;
