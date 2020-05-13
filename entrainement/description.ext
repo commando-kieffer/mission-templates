@@ -11,7 +11,7 @@ loadScreen = "loadscreen.paa";
 
 class Header
 {
-    gameType=CK;
+    gameType=Coop;
     minPlayers=1;
     maxPlayers=177;
 };
