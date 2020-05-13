@@ -39,8 +39,8 @@ corpseRemovalMaxTime=60;
 wreckManagerMode=1;
 
 wreckLimit=10;
-wreckRemovalMinTime=300;
-wreckRemovalMaxTime=600;
+wreckRemovalMinTime=600;
+wreckRemovalMaxTime=900;
 minPlayerDistance=500;
 
 forceRotorLibSimulation=0;
